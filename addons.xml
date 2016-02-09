@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.thedream" name="Dream Wizard" version="0.1.2" provider-name="TheDreamers">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">The Dream</summary>
+		<description lang="en">Finally, The dream is here</description>
+		<forum></forum>
+		<source></source>
+		<website></website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.thedream" name="The Dream Repository" version="1.0.0" provider-name="Sim74">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Brokentechie Repository">
+            <info compressed="false">https://raw.githubusercontent.com/Sim74/The-Dream-Repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Sim74/The-Dream-Repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Sim74/The-Dream-Repo/master/zips</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Dream Repository</summary>
+            <description>The Dream Repository.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
